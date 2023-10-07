@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Roboto+Condensed:wght@300&display=swap');
+
+.desktop_container {
+    display: block;
+  }
+  
+  .mobile_container {
+    display: none;
+  }
+ 
+  @media only screen and (max-width: 667px) {
+    .desktop_container {
+      display: none;
+    }
+    .mobile_container {
+      display: block;
+    }
+}
+
+body{
+    /* overflow: hidden; */
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+main{
+    position: relative;
+    z-index: 1;
+    background-color: #0892D0;
+    overflow-x: hidden;
+    scroll-snap-type: y mandatory;
+}
+
+#services{
+    margin-right: 51.38vw;
+}
+
+#navnavnav{
+    position: fixed;
+    z-index: 5;
+}
+
+main>nav>div>a{margin: -9vw -4vw -16vw;}
+
+#logologologo{
+    margin: -7.4vw 20vw 0 5vw;
+    width: 30%;
+}
+
+/* Past Zuxi had some issues trying to get a hover effect for the navbar links. Hopefully future Zuxi can address this issue */
+
+.mainIntro{
+    color: rgb(251, 246, 237);
+    font-size: 2vw;
+}
+
+#carasoul{
+    background-image: linear-gradient(#0892D0, rgb(24, 13, 82), rgb(30, 7, 58));
+    height: 39vw;
+    overflow-x: auto;
+}
+
+#carasoul::-webkit-scrollbar {
+    margin-top: 2vw;
+    height: 3vh;
+    display: block;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+
+.expertise{
+    list-style: none; 
+    margin-top: 3vw;
+    width: 135vw;
+}
+
+.expertise > li{
+    background-color: rgba(236, 244, 246, 0.789);
+    color: rgb(39, 60, 79);
+    margin: 2vw 0.5vw 4.2vw;
+    border-radius: 2vw;
+    transition: 0.5s;
+    height: 32vw;
+    width: 25vw;
+}
+.expertise > li:hover{
+    margin: 0vw 0.5vw 3.51vw;
+}
+.expertise > li > a{
+    text-decoration: none;
+    color: #070e31;
+}
+.expertise > li > a > .img-fluid{
+    padding: 1vw;
+    border-radius: 3vw;
+}
+.mini-title{
+    margin: 1vw;
+    font-size: 1.4vw;
+}
+.description{
+    color: rgb(89, 129, 165);
+    margin: 1vw 0 0 1.5vw;
+    height: 6vw;
+    width: 19vw;
+    overflow-y: auto;
+}
+
+/* Scroller cancer section :D ================================================================================================================ */
+
+.specialty{
+    width: 100vw;
+    transition: 0.69s;
+}
+
+#Pioneering-Hospital-Scheduling-Through-Robust-And-Stochastic-Dynamics{
+    background: linear-gradient(rgb(30, 7, 58), #4f679f, rgb(33 33 41));
+    margin-top: 54vw;
+}
+
+.headerrr{
+    font-size: 3vw;
+    margin: 0 0 0;
+    color: #c9dbeb;
+    transition: 0.6s;
+}
+
+#h1-1{
+    margin: -55vw -50vw 0;
+    padding-top: 11vw;
+    transition: 0.4s
+}
+
+#h1-2{
+    margin-left: 106vw;
+    transition: 0.6s;
+}
+
+.box-intro{
+    font-size: 5.6vw;
+    margin-top: 5vw;
+    text-align: center;
+    transition: 2s;
+}
+
+#box-intro-1{
+    background-color: #daabf94a;
+    color: #bfdbf3;
+    text-shadow: 0vw 0.4vw #bba4c7;;
+}
+
+#doctor{
+    margin-left: 110vw;
+    transition: 1.2s;
+}
+
+.hospitalhead{
+    background-color: #feffffc7;
+    border: 0.2vw solid whitesmoke;
+    border-radius: 2vw;
+    margin: 0 13vw 3vw;
+    text-align: center;
+}
+
+
+.textmmh, .textmmh2{
+    color: #d1d1e2;
+    padding: 0.8vw;
+    margin: 5vw 0 0;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.endlogo{
+    display: block;
+    width: 50%;
+    margin: 0 auto 0;
+    padding-bottom: 4.2vw;
+}
+
+
+/* ==================================================================================================================== */
+
+#Navigating-Maritime-Logistics-with-AI-Driven-Bunker-Procurement{
+    background: linear-gradient( rgb(33 33 41), rgb(59 29 63), rgb(44 13 24));
+    padding-top: 10vw;
+}
+
+#box-intro-2{
+    color: #e2d0f4;
+    background-color: #d2691e29;
+    text-shadow: 0vw 0.4vw #a73e3e;
+}
+
+#box-intro-3, #box-intro-4, #box-intro-5, #box-intro-6{
+    color: #e2d0f4;
+    text-shadow: 0vw 0.4vw #a73e3e;
+}
+
+/* ============================================================================================================ */
+
+#Revolutionizing-Energy-Infrastructure-Management{
+    background: linear-gradient( rgb(44 13 24), rgb(63, 26, 37), rgb(68, 11, 11));
+    padding-top: 10vw;
+}
+
+#box-intro-7{
+    background-color: #9670704a;
+    color: #f0d7c1;
+    text-shadow: 0vw 0.4vw #5f1717;
+}
+
+#box-intro-8, #box-intro-9{
+    color: #f0d7c1;
+    text-shadow: 0vw 0.4vw #5f1717;
+}
+
+.energyiof{
+    border: 0.3vw solid #735f5f;
+    background-color: #4d365a66;
+    background: linear-gradient(#4d365a66, #2e153c21);
+    color: #c2d2e0;
+    font-size: 2vw;
+    margin: 7vw 0.5vw 0;
+    height: 63vh;
+    overflow: auto;
+}
+
+.energyiof::-webkit-scrollbar {
+    margin-top: 2vw;
+    width: 0.5vw;
+    display: block;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* ========================================================================================================== */
+
+#The-Art-of-Dynamic-Trading-Strategies-in-the-Algorithmic-Age{
+    background: linear-gradient( rgb(68, 11, 11), rgb(53, 36, 18), rgb(11, 20, 7));
+    padding-top: 10vw;
+}
+
+#box-intro-10{
+    background-color: #3b513f4a;
+    color: #a6bb93;
+    text-shadow: 0vw 0.4vw #055e5d;
+}
+
+#box-intro-11, #box-intro-12, #box-intro-13{
+    color: #a6bb93;
+    text-shadow: 0vw 0.4vw #055e5d;
+}
+
+#elevatorr{
+    display: block;
+    margin: auto;
+    opacity: 0.69;
+}
+
+.tradeiof{
+    border: 0.3vw solid #495a45;
+    background-color: #26584466;
+    background: linear-gradient(#26584466, #3c6b581c);
+    color: #c2d2e0;
+    font-size: 2vw;
+    margin: 7vw 0.5vw 0;
+    height: 63vh;
+    overflow: auto;
+}
+
+.tradeiof::-webkit-scrollbar {
+    margin-top: 2vw;
+    width: 0.5vw;
+    display: block;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* =============================================================================================================================== */
+
+#Harnessing-Quantum-Computing-for-Financial-Mavericks{
+    background: linear-gradient( rgb(11, 20, 7), rgb(52, 18, 53), rgb(36, 10, 33));
+    padding-top: 10vw;
+}
+
+#box-intro-14{
+    background-color: #7860904a;
+    color: #ae93bb;
+    text-shadow: 0vw 0.4vw #926161;
+}
+
+#labry{
+    margin: auto;
+    display: block;
+    opacity: 0.8;
+}
+
+#box-intro-15, #box-intro-16, #box-intro-17{
+    color: #ae93bb;
+    text-shadow: 0vw 0.4vw #926161;
+}
+#box-intro-16, #box-intro-17{
+    font-size: 3vw;
+}
+
+.quantumiof{
+    border: 0.3vw solid #735f5f;
+    background: linear-gradient(#4d365a66, #2e153c21);
+    color: #c2d2e0;
+    font-size: 2vw;
+    margin: 7vw 0.5vw 0;
+    height: 63vh;
+    overflow: auto;
+}
+
+.quantum::-webkit-scrollbar {
+    margin-top: 2vw;
+    width: 0.5vw;
+    display: block;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* ==================================================================================================================== */
+
+
+#footer{
+    color: aliceblue;
+    background-color: #010410;
+    height: 30vh;
+    text-align: center;
+}
